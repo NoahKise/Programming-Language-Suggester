@@ -22,6 +22,7 @@ window.onload = function() {
     const crisisAge = parseInt(document.getElementById("inputCrisis").value)
     const matthew = document.querySelector("input#matthew:checked").value;
     const joke = document.getElementById("inputJoke").value;
+    const jokeLetter = joke.charAt(0);
 
     if (topping1 === "char-and-cup-pepperoni" && topping2 === "hot-pickled-peppers" && topping3 === "green-olives") {
       friends.removeAttribute("class");
@@ -29,8 +30,12 @@ window.onload = function() {
       girlfriend.removeAttribute("class");
     } else if (matthew === "manic") {
       javaScript.removeAttribute("class");
-    } else if (topping1 === "pepperoni" || topping1 === "char-and-cup-pepperoni") {
+    } else if (ranch === "false") {
       ruby.removeAttribute("class");
+    } else if (crisisAge <= 33) {
+      csharp.removeAttribute("class");
+    } else if (jokeLetter === "k") {
+      python.removeAttribute("class");
     }
   });
 };
