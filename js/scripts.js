@@ -6,9 +6,9 @@ function hideResults() {
   document.getElementById("error").setAttribute("class", "hidden");
 }
 
-window.onload = function {
+window.onload = function() {
   let form = document.querySelector("form#joke");
-  form.addEventListener("submit", function (event) {
+  form.addEventListener("submit", function(event) {
     event.preventDefault();
     hideResults();
 
@@ -17,10 +17,15 @@ window.onload = function {
     const topping2 = document.querySelector("select#topping2").value;
     const topping3 = document.querySelector("select#topping3").value;
     const ranch = document.querySelector("select#ranch").value;
-    const crisisAge = document.querySelector("crisis").value;
+    const crisisAge = parseInt(document.querySelector("crisis")).value;
     const matthew = document.querySelector("input#matthew:checked").value;
-    const joke = document.querySelector("joke").value;
-    
+    const joke = document.querySelector("form#joke").value;
+
+    if (topping1 === "char-and-cup-pepperoni" && topping2 === "hot-pickled-peppers" && topping3 === "green-olives") {
+      friends.removeAttribute("class");
+    } else if (crisisAge === 32) {
+      javascript.removeAttribute("class");
+    }
   });
-}
+};
 
