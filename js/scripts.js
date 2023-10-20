@@ -4,6 +4,8 @@ function hideResults() {
   document.getElementById("csharp").setAttribute("class", "hidden");
   document.getElementById("ruby").setAttribute("class", "hidden");
   document.getElementById("error").setAttribute("class", "hidden");
+  document.getElementById("friends").setAttribute("class", "hidden");
+  document.getElementById("girlfriend").setAttribute("class", "hidden");
 }
 
 window.onload = function() {
