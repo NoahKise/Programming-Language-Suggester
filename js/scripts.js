@@ -42,6 +42,11 @@ window.onload = function() {
     } else {
       typescript.removeAttribute("class");
     }
+
+    window.scrollTo({
+      top: 3000,
+      behavior: "smooth",
+    });
   });
 };
 
