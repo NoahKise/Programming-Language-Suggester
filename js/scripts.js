@@ -17,7 +17,7 @@ window.onload = function() {
     const topping2 = document.querySelector("select#topping2").value;
     const topping3 = document.querySelector("select#topping3").value;
     const ranch = document.querySelector("select#ranch").value;
-    const crisisAge = parseInt(document.querySelector("crisis")).value;
+    const crisisAge = parseInt(document.getElementById("crisis").value)
     const matthew = document.querySelector("input#matthew:checked").value;
     const joke = document.querySelector("form#joke").value;
 
@@ -25,6 +25,8 @@ window.onload = function() {
       friends.removeAttribute("class");
     } else if (crisisAge === 32) {
       javascript.removeAttribute("class");
+    } else if (ranch === "true") {
+      ruby.removeAttribute("class");
     }
   });
 };
