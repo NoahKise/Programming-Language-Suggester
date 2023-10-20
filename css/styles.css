@@ -4,7 +4,7 @@ body {
 
 h1 {
   text-align: center;
-  font-family:monospace;
+  font-family: monospace;
   width: 380px;
   margin-left: auto;
   margin-right: auto;
@@ -28,18 +28,20 @@ p {
 
 h3 {
   text-align: center;
-  font-family:monospace;
+  font-family: monospace;
   width: 347px;
   margin-left: auto;
   margin-right: auto;
 }
+
 h2 {
   text-align: center;
-  font-family:monospace;
+  font-family: monospace;
   width: 380px;
   margin-left: auto;
   margin-right: auto;
 }
+
 .quiz {
   text-align: center;
   display: block;
@@ -59,8 +61,8 @@ h2 {
 }
 
 button {
- font-size: 40px;
- font-family: monospace;
+  font-size: 40px;
+  font-family: monospace;
 }
 
 #joke input {
