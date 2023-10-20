@@ -39,6 +39,8 @@ window.onload = function () {
       csharp.removeAttribute("class");
     } else if (jokeLetter === "k") {
       python.removeAttribute("class");
+    } else if (jokeLetter === "K") {
+      python.removeAttribute("class");
     } else {
       typescript.removeAttribute("class");
     }
