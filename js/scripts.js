@@ -23,10 +23,10 @@ window.onload = function() {
 
     if (topping1 === "char-and-cup-pepperoni" && topping2 === "hot-pickled-peppers" && topping3 === "green-olives") {
       friends.removeAttribute("class");
-    } else if (crisisAge === 32) {
-      javascript.removeAttribute("class");
-    } else if (ranch === "true") {
-      ruby.removeAttribute("class");
+    } else if (topping1 === "bacon" && topping2 === "red-onions" && topping3 === "pineapple") {
+      girlfriend.removeAttribute("class");
+    // } else if (ranch === "true") {
+    //   ruby.removeAttribute("class");
     }
   });
 };
