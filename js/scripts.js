@@ -19,7 +19,7 @@ window.onload = function() {
     const ranch = document.querySelector("select#ranch").value;
     const crisisAge = parseInt(document.getElementById("crisis").value)
     const matthew = document.querySelector("input#matthew:checked").value;
-    const joke = document.querySelector("form#joke").value;
+    const joke = document.getElementById("joke").value;
 
     if (topping1 === "char-and-cup-pepperoni" && topping2 === "hot-pickled-peppers" && topping3 === "green-olives") {
       friends.removeAttribute("class");
