@@ -9,9 +9,9 @@ function hideResults() {
   document.getElementById("typescript").setAttribute("class", "hidden");
 }
 
-window.onload = function() {
+window.onload = function () {
   let form = document.querySelector("form#joke");
-  form.addEventListener("submit", function(event) {
+  form.addEventListener("submit", function (event) {
     event.preventDefault();
     hideResults();
 
@@ -25,7 +25,9 @@ window.onload = function() {
     const joke = document.getElementById("inputJoke").value;
     const jokeLetter = joke.charAt(0);
 
-    if (topping1 === "char-and-cup-pepperoni" && topping2 === "hot-pickled-peppers" && topping3 === "green-olives") {
+    if (joke === "") {
+      error.removeAttribute("class");
+    } else if (topping1 === "char-and-cup-pepperoni" && topping2 === "hot-pickled-peppers" && topping3 === "green-olives") {
       friends.removeAttribute("class");
     } else if (topping1 === "bacon" && topping2 === "red-onions" && topping3 === "pineapple") {
       girlfriend.removeAttribute("class");
@@ -37,12 +39,10 @@ window.onload = function() {
       csharp.removeAttribute("class");
     } else if (jokeLetter === "k") {
       python.removeAttribute("class");
-    } else if (joke === "") {
-      error.removeAttribute("class");
     } else {
       typescript.removeAttribute("class");
     }
-
+    document.body.style.backgroundColor = color;
     window.scrollTo({
       top: 3000,
       behavior: "smooth",
