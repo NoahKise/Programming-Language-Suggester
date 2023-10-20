@@ -36,6 +36,8 @@ window.onload = function() {
       csharp.removeAttribute("class");
     } else if (jokeLetter === "k") {
       python.removeAttribute("class");
+    } else if (joke === "") {
+      error.removeAttribute("class");
     }
   });
 };
