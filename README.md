@@ -1,4 +1,4 @@
-# Programming Language Suggestor
+# Programming Language Suggester
 
 #### By Noah Kise
 
@@ -18,8 +18,8 @@ This is a webpage containing a form to fill out to generate a programming langua
 
 ## Setup/Installation Requirements
 
-* To view the quiz on the web, open a web browser and type https://noahkise.github.io/Programming-Language-Suggestor into the navigation bar and press enter.
-* To view github repository containing code, open a web browser and type https://github.com/NoahKise/Programming-Language-Suggestor into the navigation bar and press enter.
+* To view the quiz on the web, open a web browser and type https://noahkise.github.io/Programming-Language-Suggester into the navigation bar and press enter.
+* To view github repository containing code, open a web browser and type https://github.com/NoahKise/Programming-Language-Suggester into the navigation bar and press enter.
 
 ## Known Bugs
 
