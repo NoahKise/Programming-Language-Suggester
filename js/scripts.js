@@ -29,7 +29,7 @@ window.onload = function() {
     } else if (topping1 === "bacon" && topping2 === "red-onions" && topping3 === "pineapple") {
       girlfriend.removeAttribute("class");
     } else if (matthew === "manic") {
-      javaScript.removeAttribute("class");
+      javascript.removeAttribute("class");
     } else if (ranch === "false") {
       ruby.removeAttribute("class");
     } else if (crisisAge <= 33) {
