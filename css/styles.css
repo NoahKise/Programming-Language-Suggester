@@ -29,7 +29,7 @@ p {
 h3 {
   text-align: center;
   font-family:monospace;
-  width: 380px;
+  width: 347px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -46,6 +46,9 @@ h2 {
   width: 380px;
   margin-left: auto;
   margin-right: auto;
+  border: solid 5px black;
+  box-sizing: border-box;
+  background-color: aquamarine;
 }
 
 .quiz img {
@@ -75,3 +78,12 @@ button {
 .hidden {
   display: none;
 }
+
+.question {
+  border: solid 2px black;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  background-color: #f7e48d;
+}
+

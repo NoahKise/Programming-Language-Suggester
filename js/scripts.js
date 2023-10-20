@@ -6,6 +6,7 @@ function hideResults() {
   document.getElementById("error").setAttribute("class", "hidden");
   document.getElementById("friends").setAttribute("class", "hidden");
   document.getElementById("girlfriend").setAttribute("class", "hidden");
+  document.getElementById("typescript").setAttribute("class", "hidden");
 }
 
 window.onload = function() {
@@ -38,6 +39,8 @@ window.onload = function() {
       python.removeAttribute("class");
     } else if (joke === "") {
       error.removeAttribute("class");
+    } else {
+      typescript.removeAttribute("class");
     }
   });
 };

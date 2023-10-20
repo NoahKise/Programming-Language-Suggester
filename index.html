@@ -21,11 +21,14 @@
   </div>
   <div class="quiz">
     <h2>Let's Begin! Respond to these questions. There are no wrong answers!</h2>
+    <div class="question">
     <h3>Picture a tree on a distant alien planet. What color are the leaves?</h3>
     <form id="alienTree">
       <label for="alienTree"></label>
       <input id="inputAlienTree" type="color" name="inputAlienTree">
     </form>
+    </div>
+    <div class="question">
     <h3>Build your ideal three topping pizza</h3>
     <form id="topping1">
       <label for="topping1">Topping 1:</label>
@@ -141,6 +144,8 @@
         <option value="zucchini">Zucchini</option>
       </select>
     </form>
+  </div>
+  <div class="question">
     <h3>...You dippin that thang in ranch?</h3>
     <form id="ranch">
       <label for="ranch"></label>
@@ -149,11 +154,15 @@
         <option value="false">Gross no way!</option>
       </select>
     </form>
+  </div>
+  <div class="question">
     <h3>What is the youngest age you would consider appropriate to have a mid-life crisis?</h3>
     <form id="crisis">
       <label for="crisis"></label>
       <input id="inputCrisis" type="number" name="inputCrisis">
     </form>
+  </div>
+  <div class="question">
     <h3>Pick a McConaughey</h3>
     <form id="matthew">
       <input type="radio" id="matthew" name="matthew" value="country" checked>
@@ -165,6 +174,8 @@
       <input type="radio" id="matthew" name="matthew" value="manic">
       <label for="manic"><img src="img/manic.jpeg" alt="manic McConaughey"></label><br>
     </form>
+  </div>
+  <div class="question">
     <h3>Tell me a joke:</h3>
     <form id="joke">
       <label for="joke"></label>
@@ -172,6 +183,7 @@
       <h3>Are you ready to hear the truth? Click below!</h3>
       <button class="button" type="submit" value="submit">View Results</button>
     </form>
+  </div>
   </div>
   <div class="results">
     <div id="javascript" class="hidden">
@@ -212,7 +224,8 @@
         girlfriend's favorite pizza so you're probably her and she loves cats, especially Maggie.</h3>
     </div>
     <div id="typescript" class="hidden">
-      
+      <img src="img/typescript.png" alt="typescript logo">
+      <h3>Congratulations, you'll be learning TypeScript!</h3>
     </div>
   </div>
 </body>
